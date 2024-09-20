@@ -1,0 +1,70 @@
+
+
+body{
+    justify-content: center;
+    display: flex;
+    background-image: url("/image/Clouds-weather.jpg");
+}
+#main {
+    background-color: rgba(15, 193, 209, 0.215);
+    width: 70vw;
+    height: 50vh;
+    border-radius: 10px;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+select {
+    width: 70%;
+    height: 45px;
+    margin: 5px;
+}
+
+button {
+    width: 60%;
+    padding: 10px;
+    background-color: #0400ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+#result {
+    text-align: center;
+}
+
+.note {
+    text-align: center;
+}
+
+#unit {
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    color: gray;
+}

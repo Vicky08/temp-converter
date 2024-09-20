@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Temperature Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div id="main">
+        <h1>TEMPERATURE CONVERTER</h1>
+
+        <div id="form">
+            <div id="inputs">
+                <input type="number" id="userInput" placeholder="Enter temperature" onkeyup="calc()">
+
+                <select id="unit" onchange="calc()">
+                    <option value="kelvin">Kelvin</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <div id="result">
+            <h2 id="resultText">0° Celcius</h2>
+        </div>
+        <P class="note">NOTE: This coverter can only convert temperatures from either "Kelvin" or "Fahrenheit" into Celcius.
+            Results are generated automatically when value to be calculated is provided.
+        </P>
+        <footer>
+            <small>&#169; Designed by Victor Okeowo</small>
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
